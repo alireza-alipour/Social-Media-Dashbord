@@ -1,0 +1,191 @@
+
+/*.....................................General................................*/
+
+
+body{
+
+  background-color: hsl(230, 17%, 14%);
+  font-family: 'Inter', sans-serif;
+  color: hsl(228, 34%, 66%);
+
+}
+
+.fa-facebook-square{
+  margin: 10px;
+}
+
+
+
+/*.................................Heading............................*/
+
+.heading{
+  padding: 38px 128px;
+  font-weight:400;
+}
+
+.heading h3{
+  color: white;
+}
+
+.heading .right-title{
+  position: absolute;
+  right: 170px;
+  top: 42px;
+  display: inline;
+  color: white;
+}
+
+.heading .switch{
+  position: absolute;
+  right: 128px;
+  top: 42px;
+  display: inline;
+}
+
+.custom-control-label::before{
+  background-image:linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+  border: hsl(228, 28%, 20%) solid 1px;
+}
+
+.custom-switch .custom-control-label::after{
+  background-color: hsl(228, 28%, 20%);
+}
+
+/*....................................Following Cards.........................*/
+
+
+.followers{
+  width: 80%;
+}
+
+.col-3{
+  max-width: 23%;
+}
+
+.followers .text{
+  letter-spacing: 5px;
+}
+
+.followers .head-number{
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+.followers .username{
+  padding-top: 30px;
+  margin-bottom: 25px;
+}
+
+.followers .facebook, .followers .twitter, .followers .instagram, .followers .youtube{
+  display: inline-block;
+  background-color: hsl(228, 28%, 20%);
+  text-align: center;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 0;
+  margin-right: 25px;
+  width: 250px;
+}
+
+.followers .facebook{
+  border-top: 5px solid hsl(208, 92%, 53%);
+}
+
+.followers .twitter{
+  border-top: 5px solid hsl(203, 89%, 53%);
+}
+
+.followers .instagram{
+  background-image: linear-gradient(to right,hsl(37, 97%, 70%), hsl(329, 70%, 58%) );
+  padding-top: 5px;
+}
+
+#instagram{
+  background-color: hsl(228, 28%, 20%);
+  height: 220px;
+  border-radius: 0 0 4.5px 4.5px;
+}
+
+.followers .youtube{
+  border-top: 5px solid hsl(348, 97%, 39%);
+  margin-right: 0;
+}
+
+.up-down{
+  color: hsl(163, 72%, 41%);
+}
+
+.youtube .up-down{
+  color: hsl(356, 69%, 56%);
+}
+
+/*....................................Overview Cards.........................*/
+
+body >h3{
+  margin: 50px 128px 20px;
+  color: white;
+}
+
+.overview{
+  margin: auto 128px 70px;
+  display: grid;
+  grid-template-columns: 237px 237px 237px 237px;
+  grid-gap: 25.333px;
+
+}
+
+.overview-card{
+  background-color: hsl(228, 28%, 20%);
+  border-radius: 5px;
+  height: 130px;
+}
+
+table{
+  width: 237px;
+  height: 100px;
+}
+
+table .left{
+  text-align: left;
+padding-left: 20px;
+}
+
+table .right{
+  text-align: right;
+  padding-right: 20px;
+}
+
+table .left.top{
+  padding-top: 20px;
+}
+
+table .right.top{
+padding-top: 10px;
+
+}
+
+table .left.bottom{
+  color: white;
+  font-size: 2rem;
+  padding-top: 0px;
+}
+
+table .right.bottom{
+  color: hsl(163, 72%, 41%);
+  padding-top: 10px;
+}
+
+.facebook .right.bottom.down{
+  color: hsl(356, 69%, 56%);
+}
+
+.youtube .right.bottom{
+  color: hsl(356, 69%, 56%);
+}
+
+@media (){
+
+}
